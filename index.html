@@ -20,16 +20,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon_AL_512.png" />
 
   <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Albin Larsson | Portfolio
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
+  <meta name="description" content="System & Technical Game Designer">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="keywords" content="Albin Larsson, System Design, Techincal Game Design, Game Design, Game Development, Prototyping, Scripting, Unity, Unreal Engine, C#, C++" />
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -42,10 +42,6 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
           </li>
@@ -56,11 +52,11 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Albin Larsson</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p>System and Technical Game Designer in Sweden</p>
+        <a href="#work" class="btn btn--pink">Check out my work</a>
       </div>
     </div>
   </header>
@@ -74,137 +70,260 @@
         <h2>My Work</h2>
         <div class="work__boxes">
 
-          <!-- Each div with the work__box class is a project. -->
+            <!-- Each div with the work__box class is a project. -->
+            <!-- Entropia Start -->
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Portfolio Template</h3>
-              <p>
-                A free Open Source Portfolio for anyone to use for free.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
+            <div class="work__box">
+                <div class="work__text">
+                    <h3>Entropia Universe</h3>
+                    <p>
+                        Entropia is a sandbox sci-fi MMORPG, playing similarly to Star Wars Galaxies. The USP is that it uses Real Cash Economy. This brought with it a lot of design challenges.
+                    </p>
+                    <p>
+                        I worked for 4 years on Entropia, and have compiled a selection of my work below.
+                    </p>
+                    <p>
+                        <b>Responsibilities</b>
+                    </p>
+                    <ul class="work__list">
+                        <li>System Design</li>
+                        <li>Gameplay Balancing</li>
+                        <li>Economic Balancing</li>
+                        <li>Technical Game Design</li>
+                        <li>Content Design</li>
+                    </ul>
+                </div>
+                <div class="work__image-box">
+                    <img src="./images/Entropia_UE_logo.png" class="work__image" alt="Entropia Universe" />
+                </div>
+            </div>
 
-              <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
+            <!-- Unreal - Abilities -->
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Calculator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
+            <div class="work__box">
 
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
+                <div class="work__text">
+                    <h3>Entropia Unreal Engine - Ability System</h3>
+                    <p>
+                        Like many older games, Entropia has been planning to release an Unreal Engine update of the game. This was the main project for the company when I joined and I was initially assigned to work on the Game Economy system.
+                        Early though, an opportunity presented itself for me to design the new Ability system from scratch, which included designing the identity of each weapon (which we used instead of classes), their interplay with other systems and the individual abilities themselves.
+                    </p>
+                    <p>
+                        Since Entropia lacks classes and most of the gameplay is "click the enemy and auto attack it to death", I wanted to introduce much-needed variety in the combat, while also keeping gameplay exploration a key part of it.
+                        My primary focus for the Abilities were to make each weapon type feel like a classic MMO class, with ability rotations and roles. Their identities should be distinct and bring something to the table that other weapons cannot.
+                        This would allow players to specialize and further the "make a name for yourself" keystone of MMO social play.
+                    </p>
+                    <p>
+                        For example, the Laser weapons was the first one I worked on and it started a lot more complex than the one you can see in the images. After some prototyping and iteration, the identity of the Laser weapons took shape and I could shave off the excessive parts of
+                        the design. This was a valuable lesson in keeping my designs, their identities and purposes, clean and defined.
+                    </p>
+                    <p>
+                        While prototyping the abilities, we had just started using Unreal Engine's GAS (Gameplay Ability System) so I got to work trying it out. The system is very powerful and if the project continued I would have loved to further work with it. Especially for a game
+                        like Entropia which has hundreds of parameters, being able to connect the parameters in GAS to a spreadsheet was very useful.
+                    </p>
+                    <p>
+                        One of my favorite designs from this project was my "Critical State" debuff system. It was a way to standarize all debuffs the players could apply, but also reward them for focusing on one debuff in specific by working to stack it into Critical Levels.
+                        These debuffs would then evolve and apply an additonal effect, something that synergies with the previous debuff.
+                    </p>
+                    <img src="./images/Odyssey statuses 2.png" class="work__image" alt="Entropia Universe" />
+                </div>
+                <div class="work__image-box">
+                    <img src="./images/Odyssey abilities.png" class="work__image" alt="Entropia Universe" />
+                    <img src="./images/Laser identity.png" class="work__image" alt="Entropia Universe" />
+                    <img src="./images/Laser Carbine ability example.png" class="work__image" alt="Entropia Universe" />
+                </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
 
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
+            <!-- Unreal - Mining -->
+
+            <div class="work__box">
+
+                <div class="work__text">
+                    <h3>Entropia Unreal Engine - Mining</h3>
+                    <p>
+                        Mining is one of the 3 pillars of Entropia, and designing the Unreal Engine version was a huge challenge. Fortunately the current system is very basic, so I was allowed to design something more interesting from scratch.
+                        The main issue was that the Mining system had already gone through 3 extensive iterations before I got my hands on it, and it still didn't seem like there was a unified idea of how the Directors wanted it to be. In order to find that idea, I decided to start
+                        prototyping and having check-ins with Direction to make sure that it fit the vision this time.
+                    </p>
+                    <p>
+                        To me, mining gameplay always came down to 2 gameplay loops: Surveying and Extration. Couple this with a solid Spawning logic, and you have the basis for a Mining System.
+                        Surveying dealt with information collection, allowing players to gather hints regarding the mineral composition of areas in order to find an ideal location for them to mine.
+                        Extraction was meant to be the more active part, chosing where to extract, defending the extractor, optimising equipment, etc.
+                        Spawning new deposits had to be hard for players to predict, but still give the development team control over where they spawned.
+                    </p>
+                    <p>
+                        After prototyping and getting feedback, I realised that the older designs for mining had gotten too complicated because of opinions and debates compiling into a mass of requirements that left the design oversaturated and needlessly complicated.
+                        Therefore my final design was slimmed and focused.
+                    </p>
+                    <h4>The Prototype</h4>
+                    <p>
+                        Players would gather macro-level information at outposts about what the nearby mineral compositions looked like and the general area where they can be found. Players could then go these areas
+                        and use their Finder scanning tool to find Deposits of minerals.
+                    </p>
+                    <p>
+                        After finding a good spot where the most minerals had overlapped, or that had a high concentration of a specific mineral, the player would call in their Extractor from the sky. Striking down and starting the process of pulling minerals from the ground.
+                        These extractors could also attract monsters in the area, but the monsters would never stop the extraction, only serving as a danger to the player themselves.
+                    </p>
+                    <p>
+                        The deposits would be semi-autogenerated where new spawn location would be generated each week, but only 90% of them would be active at the same time. This would allow new spawns to appear to be generated on the fly and be harder
+                        to predict and map out. Designers would also be able to add specific new spawn areas, to accommodate for events and the like.
+                    </p>
+                    <img src="./images/MiningOrbitalDrop.gif" class="work__image" alt="Entropia Universe" />
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/axRE4qEacOo?si=TWbwTYa400z3Lvev" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="origin" allowfullscreen></iframe>
+                </div>
+                <div class="work__image-box">
+                    <img src="./images/Odyssey abilities.png" class="work__image" alt="Entropia Universe" />
+                    <img src="./images/Mining Field.png" class="work__image" alt="Entropia Universe" />
+                </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+
+
+            <!-- Space Mining -->
+
+            <div class="work__box">
+
+                <div class="work__text">
+                    <h3>Entropia - Space Mining Update</h3>
+                    <p>
+                        Entropia released Space travel in 2011, with various huge promises of new gameplay systems that would come with it. Among them was Space Mining, but it was never finished. In early 2025, we finally released it, although it had been completely remade from the ground up.
+                        I was in charge of prototyping the Core Gameplay Loop, design the Asteroids you had to destroy and balancing all stats and loot for both the Asteroids and the Mining Lasers.
+                    </p>
+                    <p>
+                        From the start, I wanted to make Space Mining more interactive than Planetside Mining. After a brainstorming session with the Lead Designer, Game Director and Tech Lead, I started working on prototypes to test the gameplay. These were made in Unreal Engine 5
+                        since the Cryengine 2 (Beta) that Entropia runs on doesn't support any tools for scripting and prototyping. This workflow was my idea, and worked as a great way to test out our ideas before spending weeks implementing it in Cryengine. Over the course of 3 days
+                        I completed 3 prototypes of varying complexities, but all of them shared the core theme of "cracking" the asteroid using a powerful laser. We wanted to re-use code from the existing Taming system, and I worked this into a balancing-act gameplay loop, where the
+                        Asteroid loses Health and Integrity when shot, but builds up Heat which increases the amount of Integrity lost. The player would want to keep Integrity within a specific span when the Health reached 0% in order to maximise their loot.
+                    </p>
+                    <p>
+                        The prototypes varied mostly in the player actions, and the interface they had to use. The first was simply shooting the asteroid and then stopping when Heat got too high. The second used "crack points" that spawned on the Asteroid, requiring players to find them and
+                        destroy them for optimal loot. The last used a "control panel" style of UI, where the player could twist knobs to adjust Frequency and Intensity of the laser, trying to match a semi-hidden wave-pattern in the Asteroid in order to effectively crack it.
+                    </p>
+                    <p>
+                        In the end, the technical limitations of Cryengine proved to be our downfall and the final form of Space Mining was simply shooting the Asteroid until it lost all Health. No Heat or Integrity mechanics, just a special weapon that could only deal damage to Asteroids.
+                    </p>
+                </div>
+                <div class="work__image-box">
+                    <img src="./images/Entropia_Cry_SpaceMining.png" class="work__image" alt="Entropia Universe" />
+                    <img src="./images/SpaceMiningFracture.gif" class="work__image" alt="Entropia Universe" />
+                    <img src="./images/MiningLaser.gif" class="work__image" alt="Entropia Universe" />
+                </div>
             </div>
-          </div>
+
+            <!-- Onboarding -->
+
+            <div class="work__box">
+
+                <div class="work__text">
+                    <h3>Entropia - Onboarding update</h3>
+                    <p>
+                        In 2025 it was decided that the Onboarding experience for Entropia had to be updated. The project mainly included creating a whole new area, with a quest chain that would be more engaging and interesting than the more stilted tutorial zone we previously had.
+                        This new area, Setesh, was also going to feature long-term progression for players that wanted to stay on the planet.
+                    </p>
+                    <p>
+                        The area was divided into 3 sections, that the player would travel through over the course of the quest chain. I was responsible for designing the final area, as well as all of the item and creature balancing.  I also created a Crafting tutorial quest which was greatly
+                        appreciated by the playerbase.
+                    </p>
+                    <p>
+                        I was particularly proud of the robot base that was the final in-world dungeon that the players ventured into before departing the tutorial area. There tends to be a lot of lag when loading into instanced zones in Entropia, and in order to keep the flow going, I chose to
+                        create the dungeon in-world instead, so that there would be no need for loading. This included a lot more work on my end, but my motivation to make it cool kept my pace high and it ended up really good in the end.
+                    </p>
+                    <p>
+                        Post-release we could see that the effects of the project had been very successful, with greater increases in new player numbers and retention than we'd had in years prior. The stats themselves you can see in the image below.
+                    </p>
+                    <img src="./images/Mindark new player stats.png" class="work__image" alt="Entropia Universe" />
+                </div>
+                <div class="work__image-box">
+                    <img src="./images/OnboardingCave7.png" class="work__image" alt="Entropia Universe" />
+                    <img src="./images/OnboardingCave2.png" class="work__image" alt="Entropia Universe" />
+                    <img src="./images/OnboardingCave6.png" class="work__image" alt="Entropia Universe" />
+                </div>
+            </div>
+
+            <!-- Spina -->
+
+            <div class="work__box">
+
+                <div class="work__text">
+                    <h3>Entropia - Spina Invasion</h3>
+                    <p>
+                        Possibly the coolest event I worked on in Entropia. A science vessel had crashed into Calypso carrying living samples of a insectoid race meant to be studied, but the bugs broke out and killed the crew.
+                    </p>
+                    <p>
+                        The event featured 3 redesigned areas, with missions, NPCs and new loot. We released the areas over time, and the final area also contained an instanced dungeon that ended with the players facing off against the Queen of the swarm. This boss fight was meant to be
+                        a real challenge for the high-end players, so we went all out with the difficulty. Initial estimations was that it would take the players 1 week to get the first kill. They did it under 24 hours (although this was done using exploits).
+                        This event was praised by the community and is still active today.
+                    </p>
+                    <p>
+                        For my part, I was responsible for balancing the stats of the boss and the mobs that she spawned. I also designed many of the mobs that would appear in the crash sites. Lastly, I created several of the daily missions and their rewards.
+                    </p>
+                </div>
+                <div class="work__image-box">
+                    <img src="./images/Entropia_Spina_Cluster.png" class="work__image" alt="Entropia Universe" />
+                    <img src="./images/Spina_Scarab1.png" class="work__image" alt="Entropia Universe" />
+                    <img src="./images/Spina_Cave.png" class="work__image" alt="Entropia Universe" />
+                </div>
+            </div>
+
+            <!-- Chain Shotgun -->
+
+            <div class="work__box">
+                <div class="work__text">
+                    <h3>CHAIN SHOTGUN</h3>
+                    <p>
+                        Indie project. A boomer shooter where you wield the CHAIN SHOTGUN, a gun that can take on infinite shotgun barrels, each filled with a different payload of destruction. What could be better than a double barreled shotgun? The answer: More barrels.
+                    </p>
+                    <p>
+                        <b>Responsibilities</b>
+                    </p>
+                    <ul class="work__list">
+                        <li>Technical Game Design</li>
+                        <li>Project Planning</li>
+                    </ul>
+
+                    <div class="work__links">
+                        <a href="https://bigcitywizard.itch.io/chain-shotgun?secret=es8DLQmY5lyLRP2nWi94eOYdyKg" target="_blank" class="link__text">
+                            Visit Site <span>&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="work__image-box">
+                    <img src="./images/shotgun_game_cover.png" class="work__image" alt="CHAIN SHOTGUN" />
+                </div>
+            </div>
+
+
+            <!-- Roll Die, Go Home -->
+
+            <div class="work__box">
+                <div class="work__text">
+                    <h3>Roll Die, Go Home</h3>
+                    <p>
+                        Indie project. A pun-filled roguelite dungeon crawler in the style of Enter the Gungeon or Binding of Isaac. You have a dice for a head and equip the different sides with unique powers.
+                    </p>
+                    <p>
+                        <b>Responsibilities</b>
+                    </p>
+                    <ul class="work__list">
+                        <li>Game Design</li>
+                        <li>Level Design</li>
+                        <li>Technical Game Design</li>
+                        <li>Project Planning</li>
+                    </ul>
+
+                    <div class="work__links">
+                        <a href="https://question-shark-studios.itch.io/rolldiegohome" target="_blank" class="link__text">
+                            Test it out! <span>&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="work__image-box">
+                    <img src="./images/RollDieGoHome.png" class="work__image" alt="Roll Die Go Home" />
+                </div>
+            </div>
         </div>
       </div>
     </section>
-
-    <!-- ***** Clients ***** -->
-
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
 
   <!-- ***** Contact ***** -->
 
@@ -212,16 +331,11 @@
     <div class="row">
       <h2>Get in Touch</h2>
       <div class="contact__info">
-        <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
-        </p>
+          <p>
+              Feel free to reach out to me via email or LinkedIn.
+          </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:larsson.albin95@gmail.com" class="btn">larsson.albin95@gmail.com</a>
       </div>
     </div>
   </section>
@@ -233,22 +347,7 @@
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+          <a href=https://www.linkedin.com/in/albin-larsson-112930135/">
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
@@ -258,12 +357,6 @@
       <p>
         &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
       </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
     </div>
   </footer>
 

@@ -40,7 +40,7 @@
     --white-1: #e5e5e6da;
 
 
-    --container-max-width: 1180px;
+    --container-max-width: 1700px;
     --container-normal-width: 800px;
     --container-medium-width: 700px; 
     --container-small-width: 500px;
@@ -442,10 +442,10 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__box {
     display: flex;
-    align-items: center;
+    align-items: top;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1200px) {
     .work__box {
         align-items: initial;
         flex-direction: column-reverse;
@@ -468,7 +468,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
+    flex: 0 0 50%;
 }
 
 .work__list {
@@ -598,12 +598,6 @@ body:not(.user-is-tabbing) a:focus {
 .footer__github-buttons {
     display: flex;
     justify-content: center;
-}
-
-.footer__github-buttons iframe {
-    height: 2.5rem;
-    width: 84px;
-    transform: translateY(3px);
 }
 
 @media(max-width: 500px) {
